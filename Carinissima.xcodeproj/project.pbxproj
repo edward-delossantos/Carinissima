@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0BE5C9534201741521AC108 /* Pods_Carinissima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0955F3614D941F6F7B835E89 /* Pods_Carinissima.framework */; };
+		FC5320BD26B48F2600929991 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5320BC26B48F2600929991 /* WelcomeViewController.swift */; };
+		FC5320BF26B494E100929991 /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5320BE26B494E100929991 /* MUser.swift */; };
+		FC8928F326A62A8B00ADE61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8928F226A62A8B00ADE61B /* AppDelegate.swift */; };
+		FC8928F526A62A8B00ADE61B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8928F426A62A8B00ADE61B /* SceneDelegate.swift */; };
+		FC8928FA26A62A8B00ADE61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8928F826A62A8B00ADE61B /* Main.storyboard */; };
+		FC8928FC26A62A8F00ADE61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8928FB26A62A8F00ADE61B /* Assets.xcassets */; };
+		FC8928FF26A62A8F00ADE61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8928FD26A62A8F00ADE61B /* LaunchScreen.storyboard */; };
+		FC89290926AB662A00ADE61B /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89290826AB662A00ADE61B /* CategoryCollectionViewController.swift */; };
+		FC89290B26AB668E00ADE61B /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89290A26AB668D00ADE61B /* CategoryCollectionViewCell.swift */; };
+		FC89290F26AB69E300ADE61B /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89290E26AB69E300ADE61B /* FirebaseCollectionReference.swift */; };
+		FC89291426AB6CB200ADE61B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89291326AB6CB200ADE61B /* Category.swift */; };
+		FC89291726AB6E3000ADE61B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89291626AB6E3000ADE61B /* Constants.swift */; };
+		FC89291B26ADFB3800ADE61B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC89291A26ADFB3800ADE61B /* GoogleService-Info.plist */; };
+		FC89291D26AE5EC900ADE61B /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89291C26AE5EC900ADE61B /* ItemsTableViewController.swift */; };
+		FC89291F26AE6D0A00ADE61B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89291E26AE6D0A00ADE61B /* Item.swift */; };
+		FC89292126AFD08E00ADE61B /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89292026AFD08E00ADE61B /* AddItemViewController.swift */; };
+		FC89292526B08DE100ADE61B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89292426B08DE100ADE61B /* Reachability.swift */; };
+		FC89292726B1069F00ADE61B /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89292626B1069F00ADE61B /* Downloader.swift */; };
+		FC89294426B21D1700ADE61B /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89294326B21D1700ADE61B /* ItemTableViewCell.swift */; };
+		FC89294626B2255400ADE61B /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89294526B2255400ADE61B /* HelperFunctions.swift */; };
+		FC89294826B23F4900ADE61B /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89294726B23F4900ADE61B /* ItemDetailsViewController.swift */; };
+		FC89294A26B2425B00ADE61B /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89294926B2425B00ADE61B /* ImageCollectionViewCell.swift */; };
+		FC89294C26B35CEE00ADE61B /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89294B26B35CEE00ADE61B /* Cart.swift */; };
+		FC89294E26B3AA0000ADE61B /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89294D26B3AA0000ADE61B /* CartViewController.swift */; };
+		FC92B6CC26B4E24E003C3F05 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92B6CB26B4E24E003C3F05 /* ProfileTableViewController.swift */; };
+		FC92B6CE26B61952003C3F05 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92B6CD26B61952003C3F05 /* FinishRegistrationViewController.swift */; };
+		FC92B6D026B75095003C3F05 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92B6CF26B75095003C3F05 /* EditProfileViewController.swift */; };
+		FC92B6D226B779A6003C3F05 /* PurchasedHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92B6D126B779A6003C3F05 /* PurchasedHistoryTableViewController.swift */; };
+		FC92B6D626B8A922003C3F05 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92B6D526B8A922003C3F05 /* SearchViewController.swift */; };
+		FC92B6D826B8E4CA003C3F05 /* AlgoliaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92B6D726B8E4CA003C3F05 /* AlgoliaService.swift */; };
+		FC92B6DA26BC9A54003C3F05 /* StripeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92B6D926BC9A54003C3F05 /* StripeClient.swift */; };
+		FCA26CD326BE019E0024EE03 /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA26CD226BE019E0024EE03 /* CardInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0955F3614D941F6F7B835E89 /* Pods_Carinissima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carinissima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E8716CDC419665CEFA8136 /* Pods-Carinissima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carinissima.release.xcconfig"; path = "Target Support Files/Pods-Carinissima/Pods-Carinissima.release.xcconfig"; sourceTree = "<group>"; };
+		687AD31BB7F9832B62F7A5C7 /* Pods-Carinissima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carinissima.debug.xcconfig"; path = "Target Support Files/Pods-Carinissima/Pods-Carinissima.debug.xcconfig"; sourceTree = "<group>"; };
+		FC5320BC26B48F2600929991 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FC5320BE26B494E100929991 /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
+		FC8928EF26A62A8B00ADE61B /* Carinissima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carinissima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8928F226A62A8B00ADE61B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC8928F426A62A8B00ADE61B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC8928F926A62A8B00ADE61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC8928FB26A62A8F00ADE61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC8928FE26A62A8F00ADE61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC89290026A62A8F00ADE61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC89290826AB662A00ADE61B /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		FC89290A26AB668D00ADE61B /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC89290E26AB69E300ADE61B /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		FC89291326AB6CB200ADE61B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		FC89291626AB6E3000ADE61B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FC89291A26ADFB3800ADE61B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FC89291C26AE5EC900ADE61B /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		FC89291E26AE6D0A00ADE61B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FC89292026AFD08E00ADE61B /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		FC89292426B08DE100ADE61B /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FC89292626B1069F00ADE61B /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		FC89294326B21D1700ADE61B /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		FC89294526B2255400ADE61B /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		FC89294726B23F4900ADE61B /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		FC89294926B2425B00ADE61B /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC89294B26B35CEE00ADE61B /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		FC89294D26B3AA0000ADE61B /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		FC92B6CB26B4E24E003C3F05 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		FC92B6CD26B61952003C3F05 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		FC92B6CF26B75095003C3F05 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		FC92B6D126B779A6003C3F05 /* PurchasedHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedHistoryTableViewController.swift; sourceTree = "<group>"; };
+		FC92B6D526B8A922003C3F05 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FC92B6D726B8E4CA003C3F05 /* AlgoliaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoliaService.swift; sourceTree = "<group>"; };
+		FC92B6D926BC9A54003C3F05 /* StripeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeClient.swift; sourceTree = "<group>"; };
+		FCA26CD226BE019E0024EE03 /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8928EC26A62A8B00ADE61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BE5C9534201741521AC108 /* Pods_Carinissima.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E59B6AE90D2EF67D45B01F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				687AD31BB7F9832B62F7A5C7 /* Pods-Carinissima.debug.xcconfig */,
+				64E8716CDC419665CEFA8136 /* Pods-Carinissima.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4FCDA3062F26F4C501837D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0955F3614D941F6F7B835E89 /* Pods_Carinissima.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC8928E626A62A8B00ADE61B = {
+			isa = PBXGroup;
+			children = (
+				FC8928F126A62A8B00ADE61B /* Carinissima */,
+				FC8928F026A62A8B00ADE61B /* Products */,
+				19E59B6AE90D2EF67D45B01F /* Pods */,
+				E4FCDA3062F26F4C501837D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8928F026A62A8B00ADE61B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8928EF26A62A8B00ADE61B /* Carinissima.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8928F126A62A8B00ADE61B /* Carinissima */ = {
+			isa = PBXGroup;
+			children = (
+				FC89291A26ADFB3800ADE61B /* GoogleService-Info.plist */,
+				FC89290026A62A8F00ADE61B /* Info.plist */,
+				FC8928F226A62A8B00ADE61B /* AppDelegate.swift */,
+				FC8928F426A62A8B00ADE61B /* SceneDelegate.swift */,
+				FC8928FB26A62A8F00ADE61B /* Assets.xcassets */,
+				FC89291126AB6B2400ADE61B /* Main Views */,
+				FC89291226AB6B3600ADE61B /* Custom Cells */,
+				FC89291526AB6CB600ADE61B /* Model */,
+				FC89291026AB6B1100ADE61B /* Helpers */,
+				FC8928FD26A62A8F00ADE61B /* LaunchScreen.storyboard */,
+				FC8928F826A62A8B00ADE61B /* Main.storyboard */,
+			);
+			path = Carinissima;
+			sourceTree = "<group>";
+		};
+		FC89291026AB6B1100ADE61B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC89291626AB6E3000ADE61B /* Constants.swift */,
+				FC89290E26AB69E300ADE61B /* FirebaseCollectionReference.swift */,
+				FC89292426B08DE100ADE61B /* Reachability.swift */,
+				FC89292626B1069F00ADE61B /* Downloader.swift */,
+				FC89294526B2255400ADE61B /* HelperFunctions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FC89291126AB6B2400ADE61B /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC89290826AB662A00ADE61B /* CategoryCollectionViewController.swift */,
+				FC92B6CF26B75095003C3F05 /* EditProfileViewController.swift */,
+				FC92B6CB26B4E24E003C3F05 /* ProfileTableViewController.swift */,
+				FC89291C26AE5EC900ADE61B /* ItemsTableViewController.swift */,
+				FC89292026AFD08E00ADE61B /* AddItemViewController.swift */,
+				FC89294726B23F4900ADE61B /* ItemDetailsViewController.swift */,
+				FC89294D26B3AA0000ADE61B /* CartViewController.swift */,
+				FC5320BC26B48F2600929991 /* WelcomeViewController.swift */,
+				FC92B6CD26B61952003C3F05 /* FinishRegistrationViewController.swift */,
+				FC92B6D126B779A6003C3F05 /* PurchasedHistoryTableViewController.swift */,
+				FCA26CD226BE019E0024EE03 /* CardInfoViewController.swift */,
+				FC92B6D526B8A922003C3F05 /* SearchViewController.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		FC89291226AB6B3600ADE61B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FC89290A26AB668D00ADE61B /* CategoryCollectionViewCell.swift */,
+				FC89294326B21D1700ADE61B /* ItemTableViewCell.swift */,
+				FC89294926B2425B00ADE61B /* ImageCollectionViewCell.swift */,
+			);
+			path = "\U0010Custom Cells";
+			sourceTree = "<group>";
+		};
+		FC89291526AB6CB600ADE61B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC89291326AB6CB200ADE61B /* Category.swift */,
+				FC5320BE26B494E100929991 /* MUser.swift */,
+				FC89291E26AE6D0A00ADE61B /* Item.swift */,
+				FC89294B26B35CEE00ADE61B /* Cart.swift */,
+				FC92B6D726B8E4CA003C3F05 /* AlgoliaService.swift */,
+				FC92B6D926BC9A54003C3F05 /* StripeClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8928EE26A62A8B00ADE61B /* Carinissima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC89290326A62A8F00ADE61B /* Build configuration list for PBXNativeTarget "Carinissima" */;
+			buildPhases = (
+				C822D1373585C2A3645C4D41 /* [CP] Check Pods Manifest.lock */,
+				FC8928EB26A62A8B00ADE61B /* Sources */,
+				FC8928EC26A62A8B00ADE61B /* Frameworks */,
+				FC8928ED26A62A8B00ADE61B /* Resources */,
+				A205A2B69F598139534FF305 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carinissima;
+			productName = Carinissima;
+			productReference = FC8928EF26A62A8B00ADE61B /* Carinissima.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8928E726A62A8B00ADE61B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FC8928EE26A62A8B00ADE61B = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = FC8928EA26A62A8B00ADE61B /* Build configuration list for PBXProject "Carinissima" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8928E626A62A8B00ADE61B;
+			productRefGroup = FC8928F026A62A8B00ADE61B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8928EE26A62A8B00ADE61B /* Carinissima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8928ED26A62A8B00ADE61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8928FF26A62A8F00ADE61B /* LaunchScreen.storyboard in Resources */,
+				FC89291B26ADFB3800ADE61B /* GoogleService-Info.plist in Resources */,
+				FC8928FC26A62A8F00ADE61B /* Assets.xcassets in Resources */,
+				FC8928FA26A62A8B00ADE61B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A205A2B69F598139534FF305 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carinissima/Pods-Carinissima-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carinissima/Pods-Carinissima-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carinissima/Pods-Carinissima-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C822D1373585C2A3645C4D41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Carinissima-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8928EB26A62A8B00ADE61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA26CD326BE019E0024EE03 /* CardInfoViewController.swift in Sources */,
+				FC92B6CC26B4E24E003C3F05 /* ProfileTableViewController.swift in Sources */,
+				FC89290B26AB668E00ADE61B /* CategoryCollectionViewCell.swift in Sources */,
+				FC89291F26AE6D0A00ADE61B /* Item.swift in Sources */,
+				FC89294A26B2425B00ADE61B /* ImageCollectionViewCell.swift in Sources */,
+				FC92B6CE26B61952003C3F05 /* FinishRegistrationViewController.swift in Sources */,
+				FC89294826B23F4900ADE61B /* ItemDetailsViewController.swift in Sources */,
+				FC89292726B1069F00ADE61B /* Downloader.swift in Sources */,
+				FC92B6D826B8E4CA003C3F05 /* AlgoliaService.swift in Sources */,
+				FC8928F326A62A8B00ADE61B /* AppDelegate.swift in Sources */,
+				FC89291D26AE5EC900ADE61B /* ItemsTableViewController.swift in Sources */,
+				FC89290F26AB69E300ADE61B /* FirebaseCollectionReference.swift in Sources */,
+				FC92B6D026B75095003C3F05 /* EditProfileViewController.swift in Sources */,
+				FC89294426B21D1700ADE61B /* ItemTableViewCell.swift in Sources */,
+				FC92B6D226B779A6003C3F05 /* PurchasedHistoryTableViewController.swift in Sources */,
+				FC89294626B2255400ADE61B /* HelperFunctions.swift in Sources */,
+				FC89292126AFD08E00ADE61B /* AddItemViewController.swift in Sources */,
+				FC92B6D626B8A922003C3F05 /* SearchViewController.swift in Sources */,
+				FC8928F526A62A8B00ADE61B /* SceneDelegate.swift in Sources */,
+				FC89294C26B35CEE00ADE61B /* Cart.swift in Sources */,
+				FC92B6DA26BC9A54003C3F05 /* StripeClient.swift in Sources */,
+				FC89292526B08DE100ADE61B /* Reachability.swift in Sources */,
+				FC89291726AB6E3000ADE61B /* Constants.swift in Sources */,
+				FC89290926AB662A00ADE61B /* CategoryCollectionViewController.swift in Sources */,
+				FC89294E26B3AA0000ADE61B /* CartViewController.swift in Sources */,
+				FC89291426AB6CB200ADE61B /* Category.swift in Sources */,
+				FC5320BF26B494E100929991 /* MUser.swift in Sources */,
+				FC5320BD26B48F2600929991 /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC8928F826A62A8B00ADE61B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8928F926A62A8B00ADE61B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC8928FD26A62A8F00ADE61B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8928FE26A62A8F00ADE61B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC89290126A62A8F00ADE61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC89290226A62A8F00ADE61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC89290426A62A8F00ADE61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687AD31BB7F9832B62F7A5C7 /* Pods-Carinissima.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D44VYF4F68;
+				INFOPLIST_FILE = Carinissima/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edwarddls.Carinissima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Carinissima/Main Views/Carinissima-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC89290526A62A8F00ADE61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E8716CDC419665CEFA8136 /* Pods-Carinissima.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D44VYF4F68;
+				INFOPLIST_FILE = Carinissima/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edwarddls.Carinissima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Carinissima/Main Views/Carinissima-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8928EA26A62A8B00ADE61B /* Build configuration list for PBXProject "Carinissima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89290126A62A8F00ADE61B /* Debug */,
+				FC89290226A62A8F00ADE61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC89290326A62A8F00ADE61B /* Build configuration list for PBXNativeTarget "Carinissima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC89290426A62A8F00ADE61B /* Debug */,
+				FC89290526A62A8F00ADE61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8928E726A62A8B00ADE61B /* Project object */;
+}
